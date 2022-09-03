@@ -1,0 +1,31 @@
+.navbar-expand-md {
+    background-color: #102618;
+}
+
+img {
+    width: 30px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#logo {
+    width: 100px;
+}
+
+span {
+    color: white;
+}
+
+// Probando banners
+
+.responsive-banner {
+	margin: 0.5%;
+	width: 99%;
+	position: relative;
+	height: auto;
+	min-height: 300px;
+	max-height: 30%;
+    border-radius: 15px;
+	overflow: hidden;
+	background-image: linear-gradient(to bottom right, #81ddb7, #4c9c52);
+}
