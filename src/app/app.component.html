@@ -1,73 +1,24 @@
-<header>
-  <!-- Inicio del menu -->
-  <nav class="navbar navbar-expand-md">
-    <div class="container-fluid">
-      
-      <!-- icono -->
-      <a class="navbar-brand" href="#">
-				<img id="logo" src="../assets/APLogo.png" alt="">
-        <span>#YoProgramo</span>
-			</a>
-      
-      <!-- boton del menu -->
+  <app-encabezado></app-encabezado>
+  <!-- 03-09 -->
 
-			<button class="navbar-toggler p-2" type="button"
-      data-bs-toggle="collapse" data-bs-target="#menu"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggle-icon"></span>
-			</button>
-
-      <!-- elementos del menu colapsable -->
-			<div class="collapse navbar-collapse" id="menu">
-				<ul class="navbar-nav me-auto">
-					<li class="nav-item">
-            <a href="https://github.com/Raquel007" class="navbar-link">
-              <img class="navbar-brand" src="../assets/github.png" alt="">
-              <small class="d-md-none ms-2">Github</small>
-            </a></li>
-					<li class="nav-item">
-            <a href="https://linkedin.com/in/raquel-cavagnaro-b010b2185" class="navbar-link">
-              <img class="navbar-brand" src="../assets/linkedin.png" alt="">
-              <small class="d-md-none ms-2">LinkedIn</small>
-            </a></li>
-					<li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Iniciar Sesión</a>
-						<div class="dropdown-menu dropdown-menu-right">
-							<form action="/action" method="post">
-								<input class="dropdown-item text-center" type="text" placeholder="Usuario" required>
-								<input class="dropdown-item text-center" type="password" placeholder="Contraseña" required>
-								<div class="dropdown-divider"></div>
-								<button class="dropdown-item text-center" type="submit">INGRESAR</button>
-							</form>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div> 
-  </nav>
-  <div class="responsive-banner">
-  </div>
-  </header>
-  <main>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <img src="../assets/perfil.png" alt="">
-        </div>
-        <div class="row">
-          <div class="col"><h6>Nombre</h6></div>
-          <div class="col">
-            <ul>
-              <li>Título</li>
-              <li>Información profesional</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorem velit quasi repudiandae! Quas ut provident pariatur iste accusantium ex, debitis quia ab alias, cumque quisquam nesciunt minima ducimus placeat!</li>
-            </ul>
-          </div>
-        </div>
+<div class="container perfil">
+  <div class="row"><img class="img-perfil" src="../assets/perfil.png" alt="Imagen de perfil">
+    <!-- <div class="col">
+      <button type="button" class="cambiar-foto">
+        <i class="far fa-image"></i>
+      </button> -->
+    </div>
+    <div class="row">      
+        <ul>
+          <li><h6>Nombre</h6></li>
+          <li>Título</li>
+          <li>Información profesional</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorem velit quasi repudiandae! Quas ut provident pariatur iste accusantium ex, debitis quia ab alias, cumque quisquam nesciunt minima ducimus placeat!</li>
+        </ul>
       </div>
     </div>
-  </main>
+
+
   
   <section>
     <div>
